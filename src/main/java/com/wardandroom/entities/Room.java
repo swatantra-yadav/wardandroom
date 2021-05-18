@@ -15,6 +15,9 @@ public class Room {
 	private String room_type;
 	private boolean oxygen_availability;
 	private boolean room_status;
+	
+	@ManyToOne
+	private Ward ward;
 
 
 }
