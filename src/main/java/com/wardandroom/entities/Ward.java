@@ -16,5 +16,7 @@ public class Ward {
 	private int ward_floor;
 	private boolean oxygen_availability;
 	private boolean vacancy_status;
+	@OneMany
+	private List<Room> TotalRooms;
 
 }
